@@ -10,6 +10,8 @@ First, let's start by creating a new plugin wrapper from template.
 // Call this command, and replace PluginName with the name of the plugin you wish to add
 // Make sure to capitalize the first letter, or use CamelCase if necessary.
 
+node ./node_modules/gulp/bin/gulp.js plugin:create -m -n EspIdfProvisioning
+
 gulp plugin:create -n PluginName
 
 // add -m flag to get a minimal template to start with
